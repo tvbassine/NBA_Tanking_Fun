@@ -1,8 +1,6 @@
 ###############################################################
-# Read in game data from 2006-2007 to 2018-2019:
-setwd("~/Desktop/nylon_calculus/Strength_of_schedule/data")
-dir()
-x <- read.csv("data_2007_2019.csv", stringsAsFactors = F)
+# Read in regular season data from 2006-2007 to 2018-2019:
+x <- read.csv("https://raw.githubusercontent.com/tvbassine/NBA_Tanking_Fun/master/data_2007_2019.csv", stringsAsFactors = F)
 # Any signs of tanking?
 
 # Get final record of each team:
